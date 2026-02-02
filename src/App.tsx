@@ -5,7 +5,7 @@ import { Hero } from '@/sections/Hero';
 import { Experience } from '@/sections/Experience';
 import { Projects } from '@/sections/Projects';
 import { Skills } from '@/sections/Skills';
-import { Entrepreneurship } from '@/sections/Entrepreneurship';
+// import { Entrepreneurship } from '@/sections/Entrepreneurship';
 import { Contact } from '@/sections/Contact';
 
 function App() {

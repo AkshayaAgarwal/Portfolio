@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { ExternalLink } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+// import { ExternalLink } from 'lucide-react';
+// import { Button } from '@/components/ui/button';
 import type { Project } from '@/lib/data';
 
 interface ProjectCardProps {
