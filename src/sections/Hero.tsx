@@ -33,16 +33,17 @@ export function Hero() {
     }
   };
 
-  const handleDownloadResume = () => {
-    // Resume download link - can be updated with actual resume path
-    const resumeUrl = '/Akshaya_Resume_2025.pdf';
+const handleDownloadResume = () => {
+    // Use the Google Drive "direct download" format
+    const resumeUrl = 'https://drive.google.com/uc?export=download&id=1e6p82tBjY-RT044S6mqaQS4Jenr3Ylgw';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Akshaya_Agarwal_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  };
+};
+
 
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
